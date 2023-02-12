@@ -9,3 +9,22 @@ if(tahun%400==0){
 }else{
     console.log("Bukan Kabisat")
 }
+
+let Hewan = "Laba-Laba"
+
+switch(Hewan){
+    case 'Kucing':
+        console.log('Meow')
+    break
+    case 'Anjing':
+        console.log('woof!')
+    break
+    case 'Sapi':
+        console.log('Moooo')
+    break
+    case 'Kambing':
+        console.log('Mbeeek')
+    break
+    default:
+        console.log("Hewan Tidak Dikenali")
+}
